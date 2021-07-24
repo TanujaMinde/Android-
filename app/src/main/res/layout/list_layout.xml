@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/email_d"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:textSize="40dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/cat_d"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text=""
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/amt_d"
+        android:textSize="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/date_d"
+        android:textSize="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="" />
+
+
+</LinearLayout>

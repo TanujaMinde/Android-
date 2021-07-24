@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddCategory"
+    android:background="@drawable/bg4"
+    >
+
+    <TextView
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="50dp"
+        android:layout_marginLeft="50dp"
+        android:text="Give it a GO!"
+        android:textSize="25dp" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="160dp"
+        android:layout_centerHorizontal="true"
+        android:entries="@array/category"
+        />
+
+
+
+    <EditText
+        android:id="@+id/amount"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:hint="Amount"
+        android:textColorHint="@color/white"
+        android:inputType="number"
+        android:layout_marginTop="240dp"
+        android:layout_marginLeft="100dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <EditText
+        android:layout_width="220dp"
+        android:id="@+id/date"
+        android:layout_height="50dp"
+        android:calendarTextColor="@color/blue"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="100dp"
+        android:layout_centerHorizontal="true"
+        android:hint="Date"
+        android:textColorHint="@color/white"
+        android:inputType="datetime"
+        android:datePickerMode="calendar"
+        android:minDate="01/01/2020"
+        android:calendarViewShown="true"
+        />
+
+    <Button
+        android:id="@+id/insert"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="395dp"
+        android:layout_marginLeft="100sp"
+        android:layout_centerHorizontal="true"
+        android:text="ADD"
+        android:background="@drawable/res3"
+        />
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="40sp"
+        android:text=">"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:background="@color/purple"
+        android:layout_marginTop="460dp"
+        android:layout_marginLeft="310dp"
+        />
+
+
+
+</RelativeLayout>
